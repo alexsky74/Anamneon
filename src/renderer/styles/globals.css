@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 59 130 246;        /* bg-blue-500 */
+  --color-primary-dark: 37 99 235;    /* bg-blue-600 */
+  --color-secondary: 107 114 128;     /* bg-gray-500 */
+  --color-success: 34 197 94;         /* bg-green-500 */
+  --color-danger: 239 68 68;          /* bg-red-500 */
+  --color-warning: 245 158 11;        /* bg-amber-500 */
+  --color-info: 6 182 212;           /* bg-cyan-500 */
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
